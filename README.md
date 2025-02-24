@@ -16,7 +16,7 @@ This module can be used to implement cron jobs in container environments, utiliz
 
 ```hcl
 module "private-api-destination" {
-  source = "tomkalesse/eventbridge-private-api-destination"
+  source = "tomkalesse/eventbridge-private-api-destination/aws"
 
   name        = "my-project"
   vpc_id      = "vpc-wf43cz45b1vqvc4rd13"
